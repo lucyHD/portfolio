@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif&display=swap');
+
+*{
+    font-family: IBM Plex serif;
+}
+
+
+body{
+    margin: 24px;
+}
+
+#aboutme{
+    background-color: aqua;
+}
