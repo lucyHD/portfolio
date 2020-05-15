@@ -8,15 +8,20 @@
         font-family: 'Anonymous Pro', monospace
     }
 
+
+    a {
+        text-decoration: none;
+        color: black; 
+    }
+
     .container{
-        height: 1200px;
+        /* height: 1200px; */ /*commented out because going over whole page and couldn't click on links */ 
         margin: 0px;
         padding: 0px;
         
         /* position: fixed;  */
 
-
-    }
+        }
 
 
     .container{
@@ -51,45 +56,27 @@
             color: white; 
         }
 
-        /* TEXT OF NAV BAR */
+    
 
         .flex-item{
 
             text-align: center;
         }
 
-    /*----unvisited link----*/
-        a:link{
-
-            text-decoration: none; 
-        }
-    
-    /*-----visited link------*/
-        a:visited{
-            text-decoration: none; 
-
-        }
-
-    /*-----mouseover link---------*/
-        a:hover{
-            text-decoration: none; 
-            color: black; 
-
-        }
-    
-    /*------- selected link -------*/ 
-
-        a:active{
-            text-decoration: none; 
-            color: grey;
-
-        }
 
 
         .mainText{
 
             padding-top: 150px;
             padding-left: 100px;
+        }
+
+
+        .textArea{
+
+            border-style: solid; 
+            width: 450px;
+            height: 400px; 
         }
     
 
@@ -98,6 +85,7 @@
             left: 0;
             bottom: 0;
             width: 100%;
+            height: 100px; 
             background-color: rgba(127, 112, 181, 0.301);
             text-align: center; 
 
